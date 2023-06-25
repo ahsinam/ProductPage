@@ -2,3 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
+.flexBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column-flexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+.users-container {
+  padding: 12px;
+  gap: 50px;
+
+}
+
+
+
+.user-container {
+  align-items: flex-start;
+  gap: 8px;
+  border: 1px solid grey;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.user-name {
+  align-self: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-container span {
+  margin-right: 12px;
+
+}

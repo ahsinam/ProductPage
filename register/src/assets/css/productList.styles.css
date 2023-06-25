@@ -56,8 +56,3 @@
   justify-content: space-between;
 }
 
-.flexBox {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}

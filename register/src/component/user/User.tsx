@@ -22,15 +22,26 @@ const GetUsers = () => {
   }, []);
 
   return (
-    <div>
-      <h4>All Users</h4>
+    <div className="users-container flexBox">
       {allUsers.map((user) => (
-        <div key={user.id}>
-          <span>{user.username}</span>
-          <span>{user.email}</span>
-          <span>{user.address}</span>
-          <span>{user.phone}</span>
-          <span>{user.gender}</span>
+        <div key={user.id} className="user-container column-flexBox">
+          <div className="user-name">{user.username}</div>
+          <div>
+            <span> Email: </span>
+            {user.email}
+          </div>
+          <div>
+            <span>Address: </span>
+            {user.address}
+          </div>
+          <div>
+            <span> Contact: </span>
+            {user.phone}
+          </div>
+          <div>
+            <span> Gender: </span>
+            {user.gender}
+          </div>
         </div>
       ))}
     </div>

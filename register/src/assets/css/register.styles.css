@@ -10,12 +10,6 @@
   margin: 16px;
 }
 
-.column-flexBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .form-container {
   row-gap: 30px;

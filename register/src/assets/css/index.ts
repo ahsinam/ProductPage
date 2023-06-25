@@ -6,3 +6,4 @@ import "./navigation.css";
 import "./productList.styles.css";
 import "./products.styles.css";
 import "./register.styles.css";
+import "./user.styles.css";
