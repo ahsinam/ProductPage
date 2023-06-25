@@ -1,0 +1,40 @@
+.register-container {
+  height: 100vh;
+  row-gap: 60px;
+}
+
+.dropdown-container {
+  width: 400px;
+  padding: 8px;
+  font-size: 16px;
+  margin: 16px;
+}
+
+.column-flexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  row-gap: 30px;
+  border: 1px solid black;
+  padding: 80px;
+}
+
+.register-btn {
+  width: 400px;
+  padding: 12px;
+  font-size: 24px;
+  background: green;
+  color: white;
+  border-style: none;
+
+}
+
+.label-field {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid gray;
+}

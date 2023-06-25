@@ -1,0 +1,26 @@
+.add-product-container {
+  height: 90vh;
+}
+
+.form-box {
+  row-gap: 28px;
+  border: 1px solid black;
+  padding: 80px;
+}
+
+.product-field {
+  width: 40vw;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.product-button {
+  margin-top: 40px;
+  width: 27vw;
+  padding: 12px;
+  font-size: 24px;
+  background-color: green;
+  color: white;
+  border-radius: 4px
+}
