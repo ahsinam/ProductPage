@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Controller, SubmitHandler, useForm } from "react-hook-form";
+
 import FormInput from "../inputFields/FormInput";
 import Button from "../button";
 import { loginUserService } from "../../services/user";
-import { useNavigate } from "react-router-dom";
-
-import { Controller, SubmitHandler, useForm } from "react-hook-form";
 
 import { useDispatch } from "react-redux";
 import { userSliceActions } from "../../redux/slice/user";

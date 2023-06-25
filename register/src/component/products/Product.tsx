@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
+
 import FormInput from "../inputFields";
 import Button from "../button";
 import { addProduct } from "../../services/product";
@@ -31,6 +33,8 @@ const Product = () => {
     },
   });
 
+  const navigate = useNavigate();
+
   const onSubmit: SubmitHandler<FormValueType> = async (formData) => {
     try {
       const { prod_name, quantity, price, remark, description } = formData;
@@ -45,6 +49,7 @@ const Product = () => {
 
       await addProduct(productData);
       reset();
+      navigate("/allProducts", { replace: true });
     } catch (err) {
       console.log(err);
     }
